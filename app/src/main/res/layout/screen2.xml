@@ -144,12 +144,11 @@
         android:layout_height="50dp"
         android:layout_marginTop="535dp">
         <CheckBox
-            android:id="@+id/cehckboxscreen2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/black"
-            android:text="I would like to recieve your newsletter and other promotional informations"
+            android:text="I would like to recieve your newsletter and other promotional information."
             android:textColor="@color/white"
             android:checked="true"
             />
