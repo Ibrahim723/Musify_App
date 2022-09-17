@@ -11,21 +11,21 @@
 
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
         android:background="@drawable/musify_icon" />
 
     <TextView
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="360dp"
-        android:textSize="60dp"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
         android:text="Musify"
         android:textColor="@color/white"
-        />
+        android:textSize="65dp" />
 
 
 </RelativeLayout>
