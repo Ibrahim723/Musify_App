@@ -74,6 +74,7 @@
             android:layout_height="65dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:textAllCaps="false"
             android:text="Sign In"
             android:layout_centerInParent="true"
             android:textColor="@color/white"
