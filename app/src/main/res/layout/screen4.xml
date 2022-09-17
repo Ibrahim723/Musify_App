@@ -44,7 +44,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="270dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/rounded_corner">
+        android:background="@drawable/white_round_text_field">
 
         <ImageView
             android:layout_marginLeft="10dp"
@@ -73,7 +73,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="350dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/rounded_corner">
+        android:background="@drawable/white_round_text_field">
 
         <ImageView
             android:layout_marginLeft="10dp"
@@ -104,7 +104,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="430dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/rounded_corner">
+        android:background="@drawable/white_round_text_field">
 
         <TextView
             android:layout_width="match_parent"
