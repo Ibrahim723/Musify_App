@@ -46,16 +46,17 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/account_icon"/>
+
         <TextView
-            android:layout_toRightOf="@id/chatHead"
             android:layout_width="300dp"
             android:layout_height="55dp"
-            android:gravity="center_vertical"
             android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/chatHead"
+            android:background="@drawable/brown_round_rectangle"
+            android:gravity="center_vertical"
             android:text="    What an amazing song"
             android:textColor="@color/white"
-            android:textSize="15dp"
-            android:background="@drawable/brown_round_rectangle"/>
+            android:textSize="15dp" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -65,14 +66,14 @@
             android:id="@+id/typeField"
             android:layout_width="300dp"
             android:layout_height="55dp"
-            android:textSize="15dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="470dp"
 
+            android:background="@drawable/brown_round_rectangle"
             android:gravity="center_vertical"
-            android:layout_marginLeft="25dp"
             android:text="    Post a comment"
             android:textColor="@color/white"
-            android:background="@drawable/brown_round_rectangle"/>
+            android:textSize="15dp" />
 
         <ImageView
             android:layout_toRightOf="@id/typeField"
