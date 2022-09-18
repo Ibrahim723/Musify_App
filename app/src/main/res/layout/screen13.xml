@@ -35,6 +35,18 @@
             android:textStyle="bold"
             android:textColor="@color/white"
             />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="280dp"
+            android:layout_toRightOf="@id/arrow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Next"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+            />
 
 
         <ImageView
