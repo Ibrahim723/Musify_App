@@ -41,11 +41,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:layout_marginLeft="25dp">
+
         <ImageView
             android:id="@+id/chatHead"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/account_icon"/>
+            android:background="@drawable/account_icon" />
 
         <TextView
             android:layout_width="300dp"

@@ -75,30 +75,32 @@
 
     <LinearLayout
         android:layout_width="175dp"
-        android:weightSum="4"
-        android:gravity="center"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp">
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:weightSum="4">
 
         <ImageView
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="35dp"
-            android:background="@drawable/previous_button" />
-        <ImageView
+            android:layout_marginRight="20dp"
             android:layout_weight="1"
+            android:background="@drawable/previous_button" />
+
+        <ImageView
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_marginLeft="20dp"
+            android:layout_weight="1"
 
             android:background="@drawable/play" />
+
         <ImageView
-            android:layout_marginLeft="30dp"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
 
             android:background="@drawable/next_button" />
     </LinearLayout>
