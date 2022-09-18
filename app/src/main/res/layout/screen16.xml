@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:statusBarColor="@color/black"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Song Title"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="45dp"
+            android:background="@drawable/down_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="By Artist"
+            android:textColor="#FFC107"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/despacito" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="15dp"
+            android:background="@drawable/slider"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#FFC107"
+            android:text="2:53"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="175dp"
+        android:weightSum="4"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@drawable/previous_button" />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@drawable/play" />
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+
+            android:background="@drawable/next_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp">
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/white_heart" />
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/download" />
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/music_menu" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/list" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/dot_menu" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2A2730">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/like">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/add"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/add">
+            </ImageView>
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/search">
+            </ImageView>
+            <ImageView
+                android:id="@+id/later"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/listen_later">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="32dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="65dp"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="Liked"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="65dp"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="Add"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="65dp"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="Search"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_marginRight="15dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="65dp"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="Listen Later"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
